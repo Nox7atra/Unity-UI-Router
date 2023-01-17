@@ -1,0 +1,19 @@
+{
+    "name": "com.nox7atra.unity-ui-router",
+    "version": "1.0.0",
+    "displayName": "Unity UI Router",
+    "description": "",
+    "unity": "2021.3",
+    "unityRelease": "16f1",
+    "author": {
+        "name": "nox7atra",
+        "email": "",
+        "url": "https://t.me/+F_xg6S_OzDxlZDI6"
+    },
+	"samples": [
+        {
+            "displayName": "UI Sample",
+            "description": "Contains sample shaders for the High Definition render pipeline",
+            "path": "Samples~/UI_Sample"
+        }
+}
