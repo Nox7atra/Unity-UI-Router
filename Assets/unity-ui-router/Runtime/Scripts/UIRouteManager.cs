@@ -125,7 +125,8 @@ namespace Nox7atra.UIRouter
             _routesData = new Dictionary<string, Type>();
             foreach (var assembly in assemblies)
             {
-                foreach(Type type in assembly.GetTypes())
+                var types = assembly.GetTypes();
+                foreach(Type type in types)
                 {
                     var attributes = type.GetCustomAttributes(typeof(UIRouteAttribute), true);
                     if (attributes.Length > 0)
